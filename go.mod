@@ -11,7 +11,7 @@ require (
 	github.com/muhammadmuzzammil1998/jsonc v1.0.0 // indirect
 	github.com/pelletier/go-toml v1.9.4 // indirect
 	github.com/sandertv/go-raknet v1.10.9 // indirect
-	github.com/sandertv/gophertunnel v1.21.1 // indirect
+	github.com/sandertv/gophertunnel v1.24.11 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
 	golang.org/x/crypto v0.0.0-20220411220226-7b82a4e95df4 // indirect
 	golang.org/x/image v0.0.0-20190802002840-cff245a6509b // indirect
@@ -22,3 +22,5 @@ require (
 	google.golang.org/protobuf v1.25.0 // indirect
 	gopkg.in/square/go-jose.v2 v2.6.0 // indirect
 )
+
+replace github.com/sandertv/gophertunnel v1.24.11 => github.com/PTKDrake/gophertunnel v0.0.0-20220930064903-6b5cbfd8445c
